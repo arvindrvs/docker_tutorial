@@ -1,0 +1,14 @@
+version: "2.2"
+services:
+  tmp1:
+    image: arvindrvs21/tmp_cont1
+    container_name: tmp_cont1
+    cpus: 1.60
+    cpuset: 0,1
+    mem_limit: '90m'
+  tmp2:
+    image: arvindrvs21/tmp_cont2
+    container_name: tmp_cont2
+    cpus: 1.00
+    cpuset: 0,1
+    mem_limit: '80m'

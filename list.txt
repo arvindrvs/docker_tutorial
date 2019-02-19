@@ -1,0 +1,7 @@
+container 1 (explain all linux commands)
+docker image ls
+docker run -it ubuntu command
+container 2 (CMD of first dockerfile doesnt work - 2 CMD wont work - RUN executes while building CMD executes while executing)
+static site
+linux tweet app
+docker-compose (both)

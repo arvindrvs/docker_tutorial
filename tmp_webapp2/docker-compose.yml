@@ -1,0 +1,18 @@
+version: "2.2"
+services:
+  tmp1:
+    image: arvindrvs21/tmp_webapp1
+    ports: 
+    - "7600:80"
+    container_name: tmp_webapp1
+    cpus: 1.60
+    cpuset: 0,1
+    mem_limit: '90m'
+  tmp2:
+    image: arvindrvs21/tmp_webapp2
+    ports: 
+    - "7700:80"
+    container_name: tmp_webapp2
+    cpus: 1.00
+    cpuset: 0,1
+    mem_limit: '80m'
